@@ -1,9 +1,10 @@
+import React from 'react';
+
 export default function PlayPage() {
   return (
-    <div>
-      <h1>Play Page Loaded</h1>
-      <p>Your Next.js app is now working at /548/551/play</p>
+    <div style={{ padding: '20px', fontFamily: 'sans-serif' }}>
+      <h1>Next.js Route Active</h1>
+      <p>Your file is now live at: <code>/548/551/play</code></p>
     </div>
   );
 }
-
